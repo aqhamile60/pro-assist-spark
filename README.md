@@ -34,10 +34,7 @@ All outputs are AI-generated drafts. Review and edit before use. Do not add fals
 
 ## Project Structure
 
-ai-workplace-assistant/
-├── public/
-│   ├── favicon.ico
-│   └── og-image.png
+pro-assist-spark/
 ├── src/
 │   ├── components/
 │   │   ├── AppSidebar.tsx
