@@ -75,14 +75,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "CareerKick-AI" },
+      { title: "AI Workplace Productivity Assistant" },
       { name: "description", content: "Automate workplace tasks with AI: emails, meeting notes, planning, research, and chat." },
-      { name: "author", content: "CareerKick-AI" },
-      { property: "og:title", content: "CareerKick-AI" },
+      { name: "author", content: "Workplace AI" },
+      { property: "og:title", content: "AI Workplace Productivity Assistant" },
       { property: "og:description", content: "Automate workplace tasks with AI: emails, meeting notes, planning, research, and chat." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "AI Workplace Productivity Assistant" },
+      { name: "twitter:description", content: "Automate workplace tasks with AI: emails, meeting notes, planning, research, and chat." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/c7f2c0a3-fc5b-46d8-b3a9-32da46fc5f63/id-preview-f419c7f7--339009be-d5f1-4150-8858-dd6cf4456acf.lovable.app-1778744749908.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/c7f2c0a3-fc5b-46d8-b3a9-32da46fc5f63/id-preview-f419c7f7--339009be-d5f1-4150-8858-dd6cf4456acf.lovable.app-1778744749908.png" },
     ],
     links: [
       {
@@ -122,7 +126,7 @@ function RootComponent() {
           <div className="flex min-h-screen flex-1 flex-col">
             <header className="sticky top-0 z-10 flex h-14 items-center gap-2 border-b border-border bg-background/80 px-4 backdrop-blur">
               <SidebarTrigger />
-              <span className="text-sm font-medium text-muted-foreground">CareerKick-AI</span>
+              <span className="text-sm font-medium text-muted-foreground">AI Workplace Productivity Assistant</span>
             </header>
             <main className="flex-1">
               <Outlet />
