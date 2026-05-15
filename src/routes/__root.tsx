@@ -103,7 +103,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
 
 function RootShell({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en">
+    <html lang="en" className="dark">
       <head>
         <HeadContent />
       </head>
@@ -124,16 +124,16 @@ function RootComponent() {
         <div className="flex min-h-screen w-full">
           <AppSidebar />
           <div className="flex min-h-screen flex-1 flex-col">
-            <header className="sticky top-0 z-10 flex h-14 items-center gap-2 border-b border-border bg-background/80 px-4 backdrop-blur">
+            <header className="sticky top-0 z-10 flex h-14 items-center gap-2 border-b border-border bg-background/70 px-4 backdrop-blur">
               <SidebarTrigger />
-              <span className="text-sm font-medium text-muted-foreground">AI Workplace Productivity Assistant</span>
+              <span className="text-sm font-medium text-muted-foreground">CareerKick AI</span>
             </header>
             <main className="flex-1">
               <Outlet />
             </main>
           </div>
         </div>
-        <Toaster richColors position="top-right" />
+        <Toaster richColors position="top-right" theme="dark" />
       </SidebarProvider>
     </QueryClientProvider>
   );
