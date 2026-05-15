@@ -15,8 +15,8 @@ import {
 
 const tools = [
   { title: "Dashboard", url: "/", icon: LayoutDashboard },
-  { title: "Smart Email", url: "/email", icon: Mail },
-  { title: "Meeting Notes", url: "/summarizer", icon: FileText },
+  { title: "Email Generator", url: "/email", icon: Mail },
+  { title: "Notes Summarizer", url: "/summarizer", icon: FileText },
   { title: "Task Planner", url: "/planner", icon: ListChecks },
   { title: "Research", url: "/research", icon: Search },
   { title: "AI Chat", url: "/chat", icon: MessageSquare },
